@@ -21,10 +21,6 @@ It runs **without any RAG framework** and is designed to work with any local LLM
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/your-username/art-of-electronics-rag.git
-cd art-of-electronics-rag
-```
 
 ### 2. Install Python dependencies
 
@@ -78,7 +74,7 @@ Example payload:
 ## 🛠️ Customization
 
 - Replace `Gemma` with any other model (Mistral, LLama, Phi, etc.)
-- Tune chunk size and retrieval `top_k` values in `retriever.py`
+- Tune chunk size and retrieval `top_k` values 
 - Add citation or source highlighting for better transparency
 
 ---
@@ -88,7 +84,6 @@ Example payload:
 - *The Art of Electronics* — Horowitz & Hill  
 - [MPNet](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) for embeddings  
 - [LM Studio](https://lmstudio.ai) for local LLM integration  
-- FAISS for efficient vector search
 
 ---
 
